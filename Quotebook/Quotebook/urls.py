@@ -15,6 +15,7 @@ import app.views
 # admin.autodiscover()
 
 urlpatterns = [
+	url(r'^$', app.views.view_quote) 
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
