@@ -755,7 +755,7 @@
     "model": "app.Quote",
     "pk": 94,
     "fields": {
-      "quote": "Clarinets are like lasers. Don't shoot the baby the with the clarinets.",
+      "quote": "Clarinets are like lasers. Don't shoot the baby with the clarinets.",
       "attribution": "OBA Musicperson"
     }
   },
