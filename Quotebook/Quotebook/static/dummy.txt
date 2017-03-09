@@ -1,0 +1,1 @@
+This is here so git will keep the parent directory around. Otherwise, Django throws an error because the parent directory does not exist.

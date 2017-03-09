@@ -54,6 +54,7 @@
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="Quotebook\" />
+    <Folder Include="Quotebook\static\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\fixtures\quotes.json" />
