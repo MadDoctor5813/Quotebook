@@ -1,1 +1,850 @@
-[{"model": "app.Quote", "pk": 0, "fields": {"quote": "Donuts and cones!", "attribution": "Liam Reynolds"}}, {"model": "app.Quote", "pk": 1, "fields": {"quote": "They have the ability to destroy you. Like vegetables.", "attribution": "Kevin Trieu"}}, {"model": "app.Quote", "pk": 2, "fields": {"quote": "How do the paper cut affect whirlyburd fall.", "attribution": "K. Sharma"}}, {"model": "app.Quote", "pk": 3, "fields": {"quote": "I can drink the grapes.", "attribution": "Daniel Tutor"}}, {"model": "app.Quote", "pk": 4, "fields": {"quote": "Our team captain is always late. That's why he's the team captain.", "attribution": "Piranivan"}}, {"model": "app.Quote", "pk": 5, "fields": {"quote": "I mean, I have a sister but I'm not a sister.", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 6, "fields": {"quote": "It's Harold the gold man buyer!", "attribution": "Kyle"}}, {"model": "app.Quote", "pk": 7, "fields": {"quote": "If you eat a lot you will grow into a giant dragon.", "attribution": "Brandon"}}, {"model": "app.Quote", "pk": 8, "fields": {"quote": "The Canadians implemented the creeping beverage.", "attribution": "Julia"}}, {"model": "app.Quote", "pk": 9, "fields": {"quote": "We are going to have to deal with this kazoo.", "attribution": "Kyle"}}, {"model": "app.Quote", "pk": 10, "fields": {"quote": "You have to specify before I start ranting.", "attribution": "Kyle"}}, {"model": "app.Quote", "pk": 11, "fields": {"quote": "Extra tissue can never hurt you. Except if it's cancerous.", "attribution": "Liam uh"}}, {"model": "app.Quote", "pk": 12, "fields": {"quote": "I don't know how to hair, so it's just puff.", "attribution": "Bikram"}}, {"model": "app.Quote", "pk": 13, "fields": {"quote": "Don't count your blessings before they hatch", "attribution": "Liam"}}, {"model": "app.Quote", "pk": 14, "fields": {"quote": "Phones are like people, don't leave them on tables.", "attribution": "Kevin"}}, {"model": "app.Quote", "pk": 15, "fields": {"quote": "There's a bright side to everything, except the dark side of the moon.", "attribution": "Kevin"}}, {"model": "app.Quote", "pk": 16, "fields": {"quote": "It has secret mucus.", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 17, "fields": {"quote": "Blood is blue because it's dirty.", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 18, "fields": {"quote": "There's always never no animation.", "attribution": "Kevin"}}, {"model": "app.Quote", "pk": 19, "fields": {"quote": "You'd need to call the barber to cut your leg off.", "attribution": "Kyle"}}, {"model": "app.Quote", "pk": 20, "fields": {"quote": "The pricing isn't a scheme.", "attribution": "Servery Foodsperson"}}, {"model": "app.Quote", "pk": 21, "fields": {"quote": "A surprise win, that's surprising!", "attribution": "Kevin"}}, {"model": "app.Quote", "pk": 22, "fields": {"quote": "I'm just as fast as you, but slower.", "attribution": "Lily"}}, {"model": "app.Quote", "pk": 23, "fields": {"quote": "You can't see now 'cause it's all gone Jamaican.", "attribution": "Kevin"}}, {"model": "app.Quote", "pk": 24, "fields": {"quote": "I love funny donut.", "attribution": "Liam"}}, {"model": "app.Quote", "pk": 25, "fields": {"quote": "You're fraudulently quotening now.", "attribution": "Liam"}}, {"model": "app.Quote", "pk": 26, "fields": {"quote": "I'm like Moses, I perform mitosis!", "attribution": "The Jay"}}, {"model": "app.Quote", "pk": 27, "fields": {"quote": "In motherland book marks you!", "attribution": "Catislav (Jane)"}}, {"model": "app.Quote", "pk": 28, "fields": {"quote": "It's easier to land a plane than fly a car.", "attribution": "Liam"}}, {"model": "app.Quote", "pk": 29, "fields": {"quote": "What do you call those mirrors, the ones you can only see through one way?", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 30, "fields": {"quote": "If I don't pay for a job my house will die.", "attribution": "Merriam"}}, {"model": "app.Quote", "pk": 31, "fields": {"quote": "If you turn out the lights, then how can light refract?", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 32, "fields": {"quote": "Okay", "attribution": "The only known quote from  Carlos"}}, {"model": "app.Quote", "pk": 33, "fields": {"quote": "Oh, cameras have lenses, that's why you have to do the spinny spinny at the front.", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 34, "fields": {"quote": "If you wish hard enough it will become parallel, you know that, Kevin, as your name suggests.", "attribution": "Kyle"}}, {"model": "app.Quote", "pk": 35, "fields": {"quote": "This was the best science drill in the history of fire drills.", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 36, "fields": {"quote": "This is worse than ghetto.", "attribution": "Liam (during the great musical projector disaster of 2016)"}}, {"model": "app.Quote", "pk": 37, "fields": {"quote": "The moon was a smooth jem", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 38, "fields": {"quote": "The air needs to breathe", "attribution": "Daniel II"}}, {"model": "app.Quote", "pk": 39, "fields": {"quote": "Autotrophs roll out", "attribution": "Kyle"}}, {"model": "app.Quote", "pk": 40, "fields": {"quote": "It's Aerodemonic", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 41, "fields": {"quote": "There were PDFs in 1988, right?", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 42, "fields": {"quote": "Is Frozen based on climate change?", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 43, "fields": {"quote": "I never said climate change ever", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 44, "fields": {"quote": "Can we use our phones on the exam?", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 45, "fields": {"quote": "I always wanted to have a cool quote that no one said, but everything was taken.", "attribution": "Gaurav"}}, {"model": "app.Quote", "pk": 46, "fields": {"quote": "I can't walk because my arm hurts.", "attribution": "Jap"}}, {"model": "app.Quote", "pk": 47, "fields": {"quote": "You can't talk in the darkness", "attribution": "African person in The Great Global Warming Swindle"}}, {"model": "app.Quote", "pk": 48, "fields": {"quote": "You can have a poison berry porridge pop tart.", "attribution": "Conor"}}, {"model": "app.Quote", "pk": 49, "fields": {"quote": "Does the circle represent getting the whole mark on a question? No, it represents your actual mark on the question", "attribution": "Yanni, Mr. Simpson"}}, {"model": "app.Quote", "pk": 50, "fields": {"quote": "Set your chickens.", "attribution": "Ms. Lecce"}}, {"model": "app.Quote", "pk": 51, "fields": {"quote": "Why don't they just switch bodies", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 52, "fields": {"quote": "Precipate", "attribution": "Raj"}}, {"model": "app.Quote", "pk": 53, "fields": {"quote": "Science complete. Eggplants are the cat litter of food.", "attribution": "Kevin"}}, {"model": "app.Quote", "pk": 54, "fields": {"quote": "Neighbours is the horse sound and then not the guy who created the atom model.", "attribution": "Liam"}}, {"model": "app.Quote", "pk": 55, "fields": {"quote": "Why are we searching up how to spell intelligent", "attribution": "Liam"}}, {"model": "app.Quote", "pk": 56, "fields": {"quote": "What do you call it when you write a lowercase s large? A large lowercase s\"", "attribution": "Mr. Simpson, Yanni"}}, {"model": "app.Quote", "pk": 57, "fields": {"quote": "What to heck?", "attribution": "Brandon"}}, {"model": "app.Quote", "pk": 58, "fields": {"quote": "Happiness, is that a word?", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 59, "fields": {"quote": "Yigg knot", "attribution": "Jap"}}, {"model": "app.Quote", "pk": 60, "fields": {"quote": "What do you have for gym? Healthy active living or personal finance?", "attribution": "Jap"}}, {"model": "app.Quote", "pk": 61, "fields": {"quote": "If you say it on purpose it can't really go in the quote.", "attribution": "Brandon"}}, {"model": "app.Quote", "pk": 62, "fields": {"quote": "My kidneys will jump from a building.", "attribution": "Mr Simpson"}}, {"model": "app.Quote", "pk": 63, "fields": {"quote": "A box has four sides.", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 64, "fields": {"quote": "Noot Noot! Sorry, I was just crying, Noot Noot.", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 65, "fields": {"quote": "Yanni will eat anything.", "attribution": "Ms. Lecce"}}, {"model": "app.Quote", "pk": 66, "fields": {"quote": "Maybe the bread wasn't ripe.", "attribution": "Raj"}}, {"model": "app.Quote", "pk": 67, "fields": {"quote": "Let my people go.", "attribution": "Simranjot"}}, {"model": "app.Quote", "pk": 68, "fields": {"quote": "How can you taste if all your teeth are missing?", "attribution": "Kevin"}}, {"model": "app.Quote", "pk": 69, "fields": {"quote": "The circle is circular.", "attribution": "Manvir"}}, {"model": "app.Quote", "pk": 70, "fields": {"quote": "Two plus two equals porcupine.", "attribution": "Mr Simpson"}}, {"model": "app.Quote", "pk": 71, "fields": {"quote": "It's like an internet, but almost the size of a book.", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 72, "fields": {"quote": "How do you know he's innocent? A good detective never tells.", "attribution": "Kevin, Kyle"}}, {"model": "app.Quote", "pk": 73, "fields": {"quote": "Patience comes to those who wait.", "attribution": "Kevin"}}, {"model": "app.Quote", "pk": 74, "fields": {"quote": "If you put a polar bear in grass, how is it still white?", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 75, "fields": {"quote": "The train has negative breaks!", "attribution": "Kevin"}}, {"model": "app.Quote", "pk": 76, "fields": {"quote": "My cough tastes like sick.", "attribution": "Sydney"}}, {"model": "app.Quote", "pk": 77, "fields": {"quote": "Is there a bird in the wall?", "attribution": "Jenna"}}, {"model": "app.Quote", "pk": 78, "fields": {"quote": "We're slaves to the machines.", "attribution": "Sujay"}}, {"model": "app.Quote", "pk": 79, "fields": {"quote": "Fight. Puke. Then keep fighting. It'll turn out good in the end.", "attribution": "Mr Simpson"}}, {"model": "app.Quote", "pk": 80, "fields": {"quote": "You become a human, civilized guy who can think, person!", "attribution": "Kevin"}}, {"model": "app.Quote", "pk": 81, "fields": {"quote": "Can you buy stocks in the stock market? I mean stock market stocks!", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 82, "fields": {"quote": "Is that why it's called the hood, because everyone wears their hoods?", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 83, "fields": {"quote": "Two tubas, that's a fourba!", "attribution": "Liam"}}, {"model": "app.Quote", "pk": 84, "fields": {"quote": "My phone is 32 gigs with expendable memory.", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 85, "fields": {"quote": "A square doesn't even have four sides.", "attribution": "Osam"}}, {"model": "app.Quote", "pk": 86, "fields": {"quote": "It's the Yanni effect.", "attribution": "Mr Simpson"}}, {"model": "app.Quote", "pk": 87, "fields": {"quote": "IHow do you tell if it's yellow if it's not yellow!", "attribution": "Simranjot"}}, {"model": "app.Quote", "pk": 88, "fields": {"quote": "The string is touch screen", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 89, "fields": {"quote": "That's the sound of my mind taking a picture.", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 90, "fields": {"quote": "What's a prosthetic soul?", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 91, "fields": {"quote": "If you choke on a straw, can't you still breathe?", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 92, "fields": {"quote": "Your money is increasing by mill", "attribution": "uhh bill"}}, {"model": "app.Quote", "pk": 93, "fields": {"quote": "Math is not just a subject, it's a virus.", "attribution": "Daniel, Brandon"}}, {"model": "app.Quote", "pk": 94, "fields": {"quote": "Clarinets are like lasers. Don't shoot the baby the with the clarinets.", "attribution": "OBA Musicperson"}}, {"model": "app.Quote", "pk": 95, "fields": {"quote": "You have to protect zhee melodee", "attribution": "OBA Musicperson"}}, {"model": "app.Quote", "pk": 96, "fields": {"quote": "I have the frostbite!", "attribution": "Rachael"}}, {"model": "app.Quote", "pk": 97, "fields": {"quote": "Before humans invented soap, there was only water.", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 98, "fields": {"quote": "Do black people get cold?", "attribution": "AJ"}}, {"model": "app.Quote", "pk": 99, "fields": {"quote": "Trading gum is like dealing drugs, except it's legal!", "attribution": "Brandon"}}, {"model": "app.Quote", "pk": 100, "fields": {"quote": "If we can make fruit seedless, why can't we make chicken boneless?", "attribution": "Kevin"}}, {"model": "app.Quote", "pk": 101, "fields": {"quote": "What do you call the mystery ... mystery voyage that's not for ships?", "attribution": "Bridget"}}, {"model": "app.Quote", "pk": 102, "fields": {"quote": "Never is like two weeks", "attribution": "Yanni"}}, {"model": "app.Quote", "pk": 103, "fields": {"quote": "The natural numbers aren't negative numbers because you can't have negative starfish.", "attribution": "Nathaniel"}}, {"model": "app.Quote", "pk": 104, "fields": {"quote": "You put my ecosystem out of balance.", "attribution": "Raj"}}, {"model": "app.Quote", "pk": 105, "fields": {"quote": "If you throw a boomerang and move a step over, will it still go back to you?", "attribution": "Yanni"}}]
+[
+  {
+    "model": "app.Quote",
+    "pk": 0,
+    "fields": {
+      "quote": "Donuts and cones!",
+      "attribution": "Liam Reynolds"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 1,
+    "fields": {
+      "quote": "They have the ability to destroy you. Like vegetables.",
+      "attribution": "Kevin Trieu"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 2,
+    "fields": {
+      "quote": "How do the paper cut affect whirlyburd fall.",
+      "attribution": "K. Sharma"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 3,
+    "fields": {
+      "quote": "I can drink the grapes.",
+      "attribution": "Daniel Tutor"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 4,
+    "fields": {
+      "quote": "Our team captain is always late. That's why he's the team captain.",
+      "attribution": "Piranivan"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 5,
+    "fields": {
+      "quote": "I mean, I have a sister but I'm not a sister.",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 6,
+    "fields": {
+      "quote": "It's Harold the gold man buyer!",
+      "attribution": "Kyle"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 7,
+    "fields": {
+      "quote": "If you eat a lot you will grow into a giant dragon.",
+      "attribution": "Brandon"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 8,
+    "fields": {
+      "quote": "The Canadians implemented the creeping beverage.",
+      "attribution": "Julia"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 9,
+    "fields": {
+      "quote": "We are going to have to deal with this kazoo.",
+      "attribution": "Kyle"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 10,
+    "fields": {
+      "quote": "You have to specify before I start ranting.",
+      "attribution": "Kyle"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 11,
+    "fields": {
+      "quote": "Extra tissue can never hurt you. Except if it's cancerous.",
+      "attribution": "Liam uh"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 12,
+    "fields": {
+      "quote": "I don't know how to hair, so it's just puff.",
+      "attribution": "Bikram"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 13,
+    "fields": {
+      "quote": "Don't count your blessings before they hatch",
+      "attribution": "Liam"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 14,
+    "fields": {
+      "quote": "Phones are like people, don't leave them on tables.",
+      "attribution": "Kevin"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 15,
+    "fields": {
+      "quote": "There's a bright side to everything, except the dark side of the moon.",
+      "attribution": "Kevin"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 16,
+    "fields": {
+      "quote": "It has secret mucus.",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 17,
+    "fields": {
+      "quote": "Blood is blue because it's dirty.",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 18,
+    "fields": {
+      "quote": "There's always never no animation.",
+      "attribution": "Kevin"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 19,
+    "fields": {
+      "quote": "You'd need to call the barber to cut your leg off.",
+      "attribution": "Kyle"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 20,
+    "fields": {
+      "quote": "The pricing isn't a scheme.",
+      "attribution": "Servery Foodsperson"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 21,
+    "fields": {
+      "quote": "A surprise win, that's surprising!",
+      "attribution": "Kevin"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 22,
+    "fields": {
+      "quote": "I'm just as fast as you, but slower.",
+      "attribution": "Lily"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 23,
+    "fields": {
+      "quote": "You can't see now 'cause it's all gone Jamaican.",
+      "attribution": "Kevin"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 24,
+    "fields": {
+      "quote": "I love funny donut.",
+      "attribution": "Liam"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 25,
+    "fields": {
+      "quote": "You're fraudulently quotening now.",
+      "attribution": "Liam"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 26,
+    "fields": {
+      "quote": "I'm like Moses, I perform mitosis!",
+      "attribution": "The Jay"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 27,
+    "fields": {
+      "quote": "In motherland book marks you!",
+      "attribution": "Catislav (Jane)"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 28,
+    "fields": {
+      "quote": "It's easier to land a plane than fly a car.",
+      "attribution": "Liam"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 29,
+    "fields": {
+      "quote": "What do you call those mirrors, the ones you can only see through one way?",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 30,
+    "fields": {
+      "quote": "If I don't pay for a job my house will die.",
+      "attribution": "Merriam"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 31,
+    "fields": {
+      "quote": "If you turn out the lights, then how can light refract?",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 32,
+    "fields": {
+      "quote": "Okay",
+      "attribution": "The only known quote from  Carlos"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 33,
+    "fields": {
+      "quote": "Oh, cameras have lenses, that's why you have to do the spinny spinny at the front.",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 34,
+    "fields": {
+      "quote": "If you wish hard enough it will become parallel, you know that, Kevin, as your name suggests.",
+      "attribution": "Kyle"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 35,
+    "fields": {
+      "quote": "This was the best science drill in the history of fire drills.",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 36,
+    "fields": {
+      "quote": "This is worse than ghetto.",
+      "attribution": "Liam (during the great musical projector disaster of 2016)"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 37,
+    "fields": {
+      "quote": "The moon was a smooth jem",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 38,
+    "fields": {
+      "quote": "The air needs to breathe",
+      "attribution": "Daniel II"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 39,
+    "fields": {
+      "quote": "Autotrophs roll out",
+      "attribution": "Kyle"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 40,
+    "fields": {
+      "quote": "It's Aerodemonic",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 41,
+    "fields": {
+      "quote": "There were PDFs in 1988, right?",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 42,
+    "fields": {
+      "quote": "Is Frozen based on climate change?",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 43,
+    "fields": {
+      "quote": "I never said climate change ever",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 44,
+    "fields": {
+      "quote": "Can we use our phones on the exam?",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 45,
+    "fields": {
+      "quote": "I always wanted to have a cool quote that no one said, but everything was taken.",
+      "attribution": "Gaurav"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 46,
+    "fields": {
+      "quote": "I can't walk because my arm hurts.",
+      "attribution": "Jap"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 47,
+    "fields": {
+      "quote": "You can't talk in the darkness",
+      "attribution": "African person in The Great Global Warming Swindle"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 48,
+    "fields": {
+      "quote": "You can have a poison berry porridge pop tart.",
+      "attribution": "Conor"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 49,
+    "fields": {
+      "quote": "Does the circle represent getting the whole mark on a question? No, it represents your actual mark on the question",
+      "attribution": "Yanni, Mr. Simpson"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 50,
+    "fields": {
+      "quote": "Set your chickens.",
+      "attribution": "Ms. Lecce"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 51,
+    "fields": {
+      "quote": "Why don't they just switch bodies",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 52,
+    "fields": {
+      "quote": "Precipate",
+      "attribution": "Raj"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 53,
+    "fields": {
+      "quote": "Science complete. Eggplants are the cat litter of food.",
+      "attribution": "Kevin"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 54,
+    "fields": {
+      "quote": "Neighbours is the horse sound and then not the guy who created the atom model.",
+      "attribution": "Liam"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 55,
+    "fields": {
+      "quote": "Why are we searching up how to spell intelligent",
+      "attribution": "Liam"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 56,
+    "fields": {
+      "quote": "What do you call it when you write a lowercase s large? A large lowercase s\"",
+      "attribution": "Mr. Simpson, Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 57,
+    "fields": {
+      "quote": "What to heck?",
+      "attribution": "Brandon"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 58,
+    "fields": {
+      "quote": "Happiness, is that a word?",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 59,
+    "fields": {
+      "quote": "Yigg knot",
+      "attribution": "Jap"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 60,
+    "fields": {
+      "quote": "What do you have for gym? Healthy active living or personal finance?",
+      "attribution": "Jap"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 61,
+    "fields": {
+      "quote": "If you say it on purpose it can't really go in the quote.",
+      "attribution": "Brandon"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 62,
+    "fields": {
+      "quote": "My kidneys will jump from a building.",
+      "attribution": "Mr Simpson"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 63,
+    "fields": {
+      "quote": "A box has four sides.",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 64,
+    "fields": {
+      "quote": "Noot Noot! Sorry, I was just crying, Noot Noot.",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 65,
+    "fields": {
+      "quote": "Yanni will eat anything.",
+      "attribution": "Ms. Lecce"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 66,
+    "fields": {
+      "quote": "Maybe the bread wasn't ripe.",
+      "attribution": "Raj"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 67,
+    "fields": {
+      "quote": "Let my people go.",
+      "attribution": "Simranjot"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 68,
+    "fields": {
+      "quote": "How can you taste if all your teeth are missing?",
+      "attribution": "Kevin"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 69,
+    "fields": {
+      "quote": "The circle is circular.",
+      "attribution": "Manvir"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 70,
+    "fields": {
+      "quote": "Two plus two equals porcupine.",
+      "attribution": "Mr Simpson"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 71,
+    "fields": {
+      "quote": "It's like an internet, but almost the size of a book.",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 72,
+    "fields": {
+      "quote": "How do you know he's innocent? A good detective never tells.",
+      "attribution": "Kevin, Kyle"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 73,
+    "fields": {
+      "quote": "Patience comes to those who wait.",
+      "attribution": "Kevin"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 74,
+    "fields": {
+      "quote": "If you put a polar bear in grass, how is it still white?",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 75,
+    "fields": {
+      "quote": "The train has negative breaks!",
+      "attribution": "Kevin"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 76,
+    "fields": {
+      "quote": "My cough tastes like sick.",
+      "attribution": "Sydney"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 77,
+    "fields": {
+      "quote": "Is there a bird in the wall?",
+      "attribution": "Jenna"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 78,
+    "fields": {
+      "quote": "We're slaves to the machines.",
+      "attribution": "Sujay"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 79,
+    "fields": {
+      "quote": "Fight. Puke. Then keep fighting. It'll turn out good in the end.",
+      "attribution": "Mr Simpson"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 80,
+    "fields": {
+      "quote": "You become a human, civilized guy who can think, person!",
+      "attribution": "Kevin"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 81,
+    "fields": {
+      "quote": "Can you buy stocks in the stock market? I mean stock market stocks!",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 82,
+    "fields": {
+      "quote": "Is that why it's called the hood, because everyone wears their hoods?",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 83,
+    "fields": {
+      "quote": "Two tubas, that's a fourba!",
+      "attribution": "Liam"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 84,
+    "fields": {
+      "quote": "My phone is 32 gigs with expendable memory.",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 85,
+    "fields": {
+      "quote": "A square doesn't even have four sides.",
+      "attribution": "Osam"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 86,
+    "fields": {
+      "quote": "It's the Yanni effect.",
+      "attribution": "Mr Simpson"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 87,
+    "fields": {
+      "quote": "IHow do you tell if it's yellow if it's not yellow!",
+      "attribution": "Simranjot"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 88,
+    "fields": {
+      "quote": "The string is touch screen",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 89,
+    "fields": {
+      "quote": "That's the sound of my mind taking a picture.",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 90,
+    "fields": {
+      "quote": "What's a prosthetic soul?",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 91,
+    "fields": {
+      "quote": "If you choke on a straw, can't you still breathe?",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 92,
+    "fields": {
+      "quote": "Your money is increasing by mill- uhh bill- uh lots of money",
+      "attribution": "uhh bill"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 93,
+    "fields": {
+      "quote": "Math is not just a subject, it's a virus.",
+      "attribution": "Daniel, Brandon"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 94,
+    "fields": {
+      "quote": "Clarinets are like lasers. Don't shoot the baby the with the clarinets.",
+      "attribution": "OBA Musicperson"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 95,
+    "fields": {
+      "quote": "You have to protect zhee melodee",
+      "attribution": "OBA Musicperson"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 96,
+    "fields": {
+      "quote": "I have the frostbite!",
+      "attribution": "Rachael"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 97,
+    "fields": {
+      "quote": "Before humans invented soap, there was only water.",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 98,
+    "fields": {
+      "quote": "Do black people get cold?",
+      "attribution": "AJ"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 99,
+    "fields": {
+      "quote": "Trading gum is like dealing drugs, except it's legal!",
+      "attribution": "Brandon"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 100,
+    "fields": {
+      "quote": "If we can make fruit seedless, why can't we make chicken boneless?",
+      "attribution": "Kevin"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 101,
+    "fields": {
+      "quote": "What do you call the mystery ... mystery voyage that's not for ships?",
+      "attribution": "Bridget"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 102,
+    "fields": {
+      "quote": "Never is like two weeks",
+      "attribution": "Yanni"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 103,
+    "fields": {
+      "quote": "The natural numbers aren't negative numbers because you can't have negative starfish.",
+      "attribution": "Nathaniel"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 104,
+    "fields": {
+      "quote": "You put my ecosystem out of balance.",
+      "attribution": "Raj"
+    }
+  },
+  {
+    "model": "app.Quote",
+    "pk": 105,
+    "fields": {
+      "quote": "If you throw a boomerang and move a step over, will it still go back to you?",
+      "attribution": "Yanni"
+    }
+  }
+]
