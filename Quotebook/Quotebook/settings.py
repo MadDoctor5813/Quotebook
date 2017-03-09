@@ -29,7 +29,7 @@ SECRET_KEY = '40fbf73a-ffee-4519-9969-92bb49e742bb'
 #Load debug state from environment variables
 DEBUG = os.environ.get('DEBUG', False);
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
