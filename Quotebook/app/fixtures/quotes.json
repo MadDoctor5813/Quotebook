@@ -451,7 +451,7 @@
     "model": "app.Quote",
     "pk": 56,
     "fields": {
-      "quote": "What do you call it when you write a lowercase s large? A large lowercase s\"",
+      "quote": "What do you call it when you write a lowercase s large? A large lowercase s",
       "attribution": "Mr. Simpson, Yanni"
     }
   },
@@ -740,7 +740,7 @@
     "pk": 92,
     "fields": {
       "quote": "Your money is increasing by mill- uhh bill- uh lots of money",
-      "attribution": "uhh bill"
+      "attribution": "Yanni"
     }
   },
   {
