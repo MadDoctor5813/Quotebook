@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath Quotebook app.wsgi
+web: gunicorn --pythonpath Quotebook Quotebook.wsgi
