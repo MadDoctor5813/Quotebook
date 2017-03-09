@@ -2,3 +2,12 @@
 {
     font-size: 2em
 }
+
+.quote {
+    font-family: 'Palatino Linotype';
+}
+
+.quote-footer {
+    font-family: 'Palatino Linotype';
+    font-size: 2em;
+}
