@@ -58,6 +58,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\fixtures\quotes.json" />
+    <Content Include="app\static\app\content\quotebook.css" />
+    <Content Include="app\static\app\scripts\quotebook.js" />
     <Content Include="app\templates\app\quote.html" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
@@ -82,6 +84,7 @@
     <Content Include="app\static\app\scripts\respond.js" />
     <Content Include="app\static\app\scripts\respond.min.js" />
     <Content Include="app\static\app\scripts\_references.js" />
+    <Content Include="Quotebook\static\dummy.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.html">
