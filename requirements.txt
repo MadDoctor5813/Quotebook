@@ -2,3 +2,4 @@ django >=1.9, <2
 dj-database-url
 gunicorn
 whitenoise
+psycopg2
