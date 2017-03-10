@@ -60,6 +60,7 @@
     <Content Include="app\fixtures\quotes.json" />
     <Content Include="app\static\app\content\quotebook.css" />
     <Content Include="app\static\app\scripts\quotebook.js" />
+    <Content Include="app\templates\app\all_quotes.html" />
     <Content Include="app\templates\app\base.html" />
     <Content Include="app\templates\app\quote.html" />
     <Content Include="db.sqlite3" />
