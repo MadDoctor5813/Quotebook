@@ -28,7 +28,7 @@
         ga('send', 'pageview');
     </script>
 
-    <script src="{% static 'app/scripts/quotebook.js' %}"></script>
+    {% block custom-js %}{% endblock %}
 </head>
 <body>
     <nav class="navbar navbar-default">

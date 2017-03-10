@@ -1,5 +1,11 @@
 ﻿{% extends "app/base.html" %}
 
+{% load static %}
+
+{% block custom-js %}
+<script src="{% static 'app/scripts/quotebook.js' %}"></script>
+{% endblock %}
+
 {% block content %}
 <div class="container">
         <div class="jumbotron">
