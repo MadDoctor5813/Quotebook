@@ -3,6 +3,10 @@
     font-size: 2em
 }
 
+.blockquote {
+    border-left: none;
+}
+
 .quote {
     font-family: 'Palatino Linotype';
 }
