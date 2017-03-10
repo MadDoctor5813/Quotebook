@@ -28,6 +28,7 @@ SECRET_KEY = '40fbf73a-ffee-4519-9969-92bb49e742bb'
 # SECURITY WARNING: don't run with debug turned on in production!
 #Load debug state from environment variables
 DEBUG = os.environ.get('DEBUG', False);
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -36,6 +37,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'app',
+    'bootstrap_pagination',
     # Add your apps here to enable them
     'django.contrib.admin',
     'django.contrib.auth',
