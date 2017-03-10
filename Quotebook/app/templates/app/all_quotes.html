@@ -1,5 +1,9 @@
 ﻿{% extends "app/base.html" %}
 
+{% load static %}
+
+{% load bootstrap_pagination %}
+
 {% block content %}
 <div class="container center-block">
     {% for quote in quotes %}
@@ -10,6 +14,10 @@
 	    </blockquote>
     </div>
     {% endfor %}
-</div>
 
+    <div class="text-center">
+        {% bootstrap_paginate page_obj range=10 %}
+    </div>
+
+</div>
 {% endblock %}
