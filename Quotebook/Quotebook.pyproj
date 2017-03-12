@@ -5,6 +5,7 @@
     <Name>Quotebook</Name>
     <RootNamespace>Quotebook</RootNamespace>
     <InterpreterId>MSBuild|Quotebook|$(MSBuildProjectFullPath)</InterpreterId>
+    <Environment>DEBUG=True</Environment>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
