@@ -14,7 +14,8 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = [
-	url(r'^$', app.views.view_quote), 
+    url(r'^$', app.views.view_quote),
+	url(r'^(?P<page_id>\d+)', app.views.view_quote), 
 
     url(r'^all_quotes', app.views.view_all_quotes),
 

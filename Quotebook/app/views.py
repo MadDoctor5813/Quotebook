@@ -12,9 +12,14 @@ from app.models import Quote
 from datetime import datetime
 import random
 
-def view_quote(request):
-    random_quote = random.choice(Quote.objects.all())
-    return render(request, "app/quote.html", {'quote': random_quote})
+def view_quote(request, page_id=None):
+    if page_id == None:
+        #no specific quote requested, display a random one
+        quote = random.choice(Quote.objects.all())
+    else:
+        #display a quote with the requested id
+        quote = Quote.objects.get(pk=page_id)
+    return render(request, "app/quote.html", {'quote': quote})
 
 def view_all_quotes(request):
     try:
