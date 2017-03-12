@@ -14,7 +14,7 @@ import random
 
 def view_quote(request):
     random_quote = random.choice(Quote.objects.all())
-    return render(request, "app/quote.html", {'quote': random_quote.quote, 'attribution': random_quote.attribution})
+    return render(request, "app/quote.html", {'quote': random_quote})
 
 def view_all_quotes(request):
     try:
