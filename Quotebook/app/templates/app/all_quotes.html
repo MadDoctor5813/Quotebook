@@ -5,7 +5,25 @@
 {% load bootstrap_pagination %}
 
 {% block content %}
-<div class="container center-block">
+
+<div class="container text">
+    <div class="container text-center">
+        <form action="/all_quotes">
+            <div class="form-group">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" name="search" value="{{ request.GET.search }}">
+                    <span class="input-group-btn">
+                        <input class="btn btn-default" type="submit" value="Search">
+                    </span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="radio-inline"><input type="radio" name="searchType" value="text" checked="checked"/>Search by quote text</label>
+                <label class="radio-inline"><input type="radio" name="searchType" value="author"/>Search by quote author</label>
+            </div>
+        </form>
+    </div>
+    <hr />
     {% for quote in quotes %}
     <div class="well container">
         <blockquote class="blockquote text-center">

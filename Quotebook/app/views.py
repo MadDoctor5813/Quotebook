@@ -17,7 +17,16 @@ def view_quote(request):
     return render(request, "app/quote.html", {'quote': random_quote.quote, 'attribution': random_quote.attribution})
 
 def view_all_quotes(request):
-    all_quotes = Quote.objects.all()
+    try:
+        search = request.GET['search']
+        searchType = request.GET['searchType']
+        if searchType == 'text':
+            quote_set = Quote.objects.filter(quote__icontains=search)
+        elif searchType == 'author':
+            quote_set = Quote.objects.filter(attribution__icontains=search)
+    except MultiValueDictKeyError:
+        quote_set = Quote.objects.all()
+    paginator = Paginator(quote_set, 5)
     try:
         page_num = request.GET['page']
         quotes = paginator.page(page_num)
