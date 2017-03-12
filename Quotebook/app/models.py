@@ -14,3 +14,12 @@ class Quote(models.Model):
         return 'Quote ' + str(self.pk) + ' by ' + self.attribution
 
 admin.site.register(Quote)
+
+class SubmittedQuote(models.Model):
+
+    quote = models.CharField(max_length=128)
+    attribution = models.CharField(max_length=64)
+    submitter_email = models.EmailField()
+    date_submitted = models.DateField(auto_now_add=True)
+
+admin.site.register(SubmittedQuote)
