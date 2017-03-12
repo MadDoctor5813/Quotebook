@@ -15,9 +15,9 @@ admin.autodiscover()
 
 urlpatterns = [
     url(r'^$', app.views.view_quote),
-	url(r'^(?P<page_id>\d+)', app.views.view_quote), 
+	url(r'^(?P<page_id>\d+)/$', app.views.view_quote), 
 
-    url(r'^all_quotes', app.views.view_all_quotes),
+    url(r'^all_quotes/$', app.views.view_all_quotes),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
