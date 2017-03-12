@@ -40,3 +40,6 @@ def view_all_quotes(request):
         quotes = paginator.page(1)
 
     return render(request, "app/all_quotes.html", {'quotes' : quotes})
+
+def submit_quote(request):
+    return render(request, 'app/submit_quote.html')

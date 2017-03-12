@@ -19,6 +19,8 @@ urlpatterns = [
 
     url(r'^all_quotes/$', app.views.view_all_quotes),
 
+    url(r'^submit_quote/$', app.views.submit_quote),
+
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
