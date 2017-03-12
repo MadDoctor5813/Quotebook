@@ -2,10 +2,6 @@
 
 {% load static %}
 
-{% block custom-js %}
-<script src="{% static 'app/scripts/quotebook.js' %}"></script>
-{% endblock %}
-
 {% block content %}
 <div class="container">
         <div class="jumbotron">
@@ -16,6 +12,6 @@
         </div>
 </div>
 <div class="text-center">
-        <button class="btn btn-primary btn-large" id="reload-button">Get another quote</button>
+        <a class="btn btn-primary btn-lg" href="/">Get another quote</a>
 </div>
 {% endblock %}
