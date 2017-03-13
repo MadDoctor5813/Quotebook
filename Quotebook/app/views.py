@@ -9,6 +9,7 @@ from django.core.paginator import Paginator
 from django.core.paginator import PageNotAnInteger
 from django.utils.datastructures import MultiValueDictKeyError
 from app.models import Quote
+from app.models import SubmittedQuote
 from datetime import datetime
 import random
 
@@ -42,4 +43,14 @@ def view_all_quotes(request):
     return render(request, "app/all_quotes.html", {'quotes' : quotes})
 
 def submit_quote(request):
-    return render(request, 'app/submit_quote.html')
+    if request.method == 'GET':
+        #if it's a get, just render the submission form
+        return render(request, 'app/submit_quote.html')
+    elif request.method == 'POST':
+        #this is a form submission
+        submitted = SubmittedQuote()
+        submitted.quote = request.POST['quote']
+        submitted.attribution = request.POST['author']
+        submitted.submitter_email = request.POST['submitterEmail']
+        submitted.save()
+        return render(request, 'app/submit_success.html')
