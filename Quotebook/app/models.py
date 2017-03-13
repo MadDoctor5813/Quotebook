@@ -13,8 +13,6 @@ class Quote(models.Model):
     def __str__(self):
         return 'Quote ' + str(self.pk) + ' by ' + self.attribution
 
-admin.site.register(Quote)
-
 class SubmittedQuote(models.Model):
 
     quote = models.CharField(max_length=128)
@@ -24,5 +22,3 @@ class SubmittedQuote(models.Model):
 
     def __str__(self):
         return 'Quote submitted by ' + self.submitter_email
-
-admin.site.register(SubmittedQuote)
