@@ -64,6 +64,7 @@
     <Content Include="app\templates\app\base.html" />
     <Content Include="app\templates\app\quote.html" />
     <Content Include="app\templates\app\submit_quote.html" />
+    <Content Include="app\templates\app\submit_success.html" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
     <Content Include="app\static\app\content\bootstrap.min.css" />
