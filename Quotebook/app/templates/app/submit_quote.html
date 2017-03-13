@@ -1,22 +1,27 @@
 ﻿{% extends 'app/base.html' %}
 
+{% block custom_js %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.js"></script>
+{% endblock %}
+
+
 {% block content %}
 <div class="container">
     <h1>Submit A Quote</h1>
     <p>Have your own wisdom to add? Submit it below.</p>
     <hr />
-    <form action="/submit_quote/" method="post">
+    <form action="/submit_quote/" method="post" data-toggle="validator">
         {% csrf_token %}
         <div class="form-group">
             <label for="quote-text-field">Your quote:</label>
-            <textarea class="form-control" type="text" id="quote-text-field" rows="5" name="quote"></textarea>
+            <textarea class="form-control" type="text" id="quote-text-field" rows="5" name="quote" required></textarea>
         </div>
         <div class="form-group">
             <label for="quote-author-field">Who said it:</label>
-            <input class="form-control" type="text" id="quote-author-field" name="author" />
+            <input class="form-control" type="text" id="quote-author-field" name="author" required/>
         </div>
         <div class="form-group">
-            <label for="submitter-email-field">Your email:</label>
+            <label for="submitter-email-field">Your email (optional): </label>
             <input class="form-control" type="email" id="submitter-emailfield" name="submitterEmail"/>
             <small>We'll email you when your quote is approved.</small>
         </div>
