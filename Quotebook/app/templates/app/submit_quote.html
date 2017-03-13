@@ -5,7 +5,8 @@
     <h1>Submit A Quote</h1>
     <p>Have your own wisdom to add? Submit it below.</p>
     <hr />
-    <form action="/submit_quote" method="post">
+    <form action="/submit_quote/" method="post">
+        {% csrf_token %}
         <div class="form-group">
             <label for="quote-text-field">Your quote:</label>
             <textarea class="form-control" type="text" id="quote-text-field" rows="5" name="quote"></textarea>
