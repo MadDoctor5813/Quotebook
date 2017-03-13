@@ -22,4 +22,7 @@ class SubmittedQuote(models.Model):
     submitter_email = models.EmailField()
     date_submitted = models.DateField(auto_now_add=True)
 
+    def __str__(self):
+        return 'Quote submitted by ' + self.submitter_email
+
 admin.site.register(SubmittedQuote)
