@@ -1,0 +1,12 @@
+﻿{% extends "app/base.html" %}
+
+{% load static %}
+
+{% block content %}
+<div class="container">
+        {% include 'app/quote.html' with quote=quote %}
+</div>
+<div class="text-center">
+        <a class="btn btn-primary btn-lg" href="/">Get another quote</a>
+</div>
+{% endblock %}

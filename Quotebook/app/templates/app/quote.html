@@ -1,17 +1,11 @@
-﻿{% extends "app/base.html" %}
-
-{% load static %}
-
-{% block content %}
-<div class="container">
-        <div class="jumbotron">
-	        <blockquote class="blockquote text-center">
-		        <h1 class="quote">"{{ quote.quote }}"</h1>
-		        <footer class="quote-footer">{{ quote.attribution }}</footer>
-	        </blockquote>
-        </div>
-</div>
-<div class="text-center">
-        <a class="btn btn-primary btn-lg" href="/">Get another quote</a>
-</div>
-{% endblock %}
+﻿<a class="quote-anchor" href="/{{ quote.pk }}">
+    <div class="well container">
+        <blockquote class="blockquote text-center">
+            <h1 class="quote">"{{ quote.quote }}"</h1>
+		    <footer class="quote-footer">{{ quote.attribution }}</footer>
+	    </blockquote>
+        <footer class="footer">
+            <a href="/{{ quote.pk }}">Permalink</a>
+        </footer>
+    </div>
+</a>

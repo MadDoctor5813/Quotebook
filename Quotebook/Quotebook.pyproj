@@ -75,6 +75,7 @@
     <Content Include="app\templates\app\approve_email.html" />
     <Content Include="app\templates\app\base.html" />
     <Content Include="app\templates\app\quote.html" />
+    <Content Include="app\templates\app\view_quote.html" />
     <Content Include="app\templates\app\submit_quote.html" />
     <Content Include="app\templates\app\submit_success.html" />
     <Content Include="db.sqlite3" />

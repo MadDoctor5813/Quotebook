@@ -20,7 +20,7 @@ def view_quote(request, page_id=None):
     else:
         #display a quote with the requested id
         quote = Quote.objects.get(pk=page_id)
-    return render(request, "app/quote.html", {'quote': quote})
+    return render(request, "app/view_quote.html", {'quote': quote})
 
 def view_all_quotes(request):
     try:
