@@ -62,7 +62,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\fixtures\quotes.json" />
+    <Content Include="app\static\app\content\bootstrap-theme.css" />
+    <Content Include="app\static\app\content\bootstrap-theme.css.map" />
+    <Content Include="app\static\app\content\bootstrap-theme.min.css" />
+    <Content Include="app\static\app\content\bootstrap-theme.min.css.map" />
+    <Content Include="app\static\app\content\bootstrap.css.map" />
+    <Content Include="app\static\app\content\bootstrap.min.css.map" />
     <Content Include="app\static\app\content\quotebook.css" />
+    <Content Include="app\static\app\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="app\static\app\scripts\npm.js" />
     <Content Include="app\templates\app\all_quotes.html" />
     <Content Include="app\templates\app\approve_email.html" />
     <Content Include="app\templates\app\base.html" />
