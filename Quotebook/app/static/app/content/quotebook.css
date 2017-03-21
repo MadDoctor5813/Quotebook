@@ -15,13 +15,3 @@
     font-family: 'Palatino Linotype';
     font-size: 2em;
 }
-
-.quote-anchor {
-    color: inherit;
-    text-decoration: inherit;
-}
-
-.quote-anchor:hover {
-    color: inherit;
-    text-decoration: inherit;
-}
