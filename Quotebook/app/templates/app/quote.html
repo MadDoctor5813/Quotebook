@@ -12,11 +12,28 @@
         <input class="rating" data-display-only="true" value="{{quote.rating}}"/>
     </div>
     <footer class="footer">
-        <div class="col-md-6">
+        <div class="col-md-4">
             <a href="/{{ quote.pk }}">Permalink</a>
         </div>
-        <div class="col-md-6">
-            <a class="pull-right" href="#">Rate</a>
+        <div class="col-md-4">
+            <p class="text-center">{{quote.num_ratings}} rating{{quote.num_ratings|pluralize}}</p>
+        </div>
+        <div class="col-md-4">
+            <a class="pull-right" href="#" data-toggle="modal" data-target="#rate-modal">Rate</a>
         </div>
     </footer>
+</div>
+
+<div class="modal fade" role="dialog" id="rate-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="text-center">
+                    <h1>Rate this quote:</h1>
+                    <input class="rating" data-show-caption="false" data-size="xl" data-show-clear="false" id="modal-rating-input" data-quote-id="{{quote.pk}}"/>
+                    <button class="btn btn-primary btn-lg" data-dismiss="modal" id="rate-btn">Rate</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
