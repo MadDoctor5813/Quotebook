@@ -54,6 +54,7 @@
     <Folder Include="app\static\app\" />
     <Folder Include="app\static\app\content\" />
     <Folder Include="app\static\app\fonts\" />
+    <Folder Include="app\static\app\img\" />
     <Folder Include="app\static\app\scripts\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
@@ -69,7 +70,12 @@
     <Content Include="app\static\app\content\bootstrap.css.map" />
     <Content Include="app\static\app\content\bootstrap.min.css.map" />
     <Content Include="app\static\app\content\quotebook.css" />
+    <Content Include="app\static\app\content\star-rating.css" />
+    <Content Include="app\static\app\content\star-rating.min.css" />
     <Content Include="app\static\app\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="app\static\app\img\loading.gif" />
+    <Content Include="app\static\app\scripts\star-rating.js" />
+    <Content Include="app\static\app\scripts\star-rating.min.js" />
     <Content Include="app\static\app\scripts\npm.js" />
     <Content Include="app\templates\app\all_quotes.html" />
     <Content Include="app\templates\app\approve_email.html" />
