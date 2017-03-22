@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="{% static 'app/content/star-rating.css' %}" />
 <script src="{% static 'app/scripts/star-rating.js' %}" type="text/javascript"></script>
 <script src="{% static 'app/scripts/quote.js' %}" type="text/javascript"></script>
+<script type="text/javascript"> window.CSRF_TOKEN = "{{ csrf_token }}"; </script>
 
 <div class="well container">
     <blockquote class="blockquote text-center">
@@ -20,19 +21,19 @@
             <p class="text-center">{{quote.num_ratings}} rating{{quote.num_ratings|pluralize}}</p>
         </div>
         <div class="col-md-4">
-            <a class="pull-right" href="#" data-toggle="modal" data-target="#rate-modal">Rate</a>
+            <a id="rate-link-{{quote.pk}}" class="pull-right" href="#" data-toggle="modal" data-target="#rate-modal-{{quote.pk}}">Rate</a>
         </div>
     </footer>
 </div>
 
-<div class="modal fade" role="dialog" id="rate-modal">
+<div class="modal fade" role="dialog" id="rate-modal-{{quote.pk}}">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="text-center">
                     <h1>Rate this quote:</h1>
-                    <input class="rating" data-show-caption="false" data-size="xl" data-show-clear="false" id="modal-rating-input" data-quote-id="{{quote.pk}}"/>
-                    <button class="btn btn-primary btn-lg" data-dismiss="modal" id="rate-btn">Rate</button>
+                    <input class="rating" data-show-caption="false" data-size="xl" data-show-clear="false" id="modal-rating-input-{{quote.pk}}" data-quote-id="{{quote.pk}}"/>
+                    <button class="btn btn-primary btn-lg rate-btn" data-dismiss="modal" id="rate-btn-{{quote.pk}}" data-quote-id="{{quote.pk}}">Rate</button>
                 </div>
             </div>
         </div>
