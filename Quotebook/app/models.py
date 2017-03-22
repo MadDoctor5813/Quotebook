@@ -10,6 +10,9 @@ class Quote(models.Model):
     quote = models.CharField(max_length=128)
     attribution = models.CharField(max_length=64)
 
+    rating = models.FloatField()
+    num_ratings = models.FloatField();
+
     def __str__(self):
         return 'Quote ' + str(self.pk) + ' by ' + self.attribution
 
