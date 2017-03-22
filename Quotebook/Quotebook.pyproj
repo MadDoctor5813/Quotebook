@@ -74,6 +74,7 @@
     <Content Include="app\static\app\content\star-rating.min.css" />
     <Content Include="app\static\app\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="app\static\app\img\loading.gif" />
+    <Content Include="app\static\app\scripts\quote.js" />
     <Content Include="app\static\app\scripts\star-rating.js" />
     <Content Include="app\static\app\scripts\star-rating.min.js" />
     <Content Include="app\static\app\scripts\npm.js" />
