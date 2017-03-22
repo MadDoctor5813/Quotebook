@@ -19,8 +19,11 @@ def send_approve_email(to_email, quote_id):
    email = send_mail('Your quote has been approved', 'Your quote has been approved. See it at hlssquotebook.herokuapp.com/' + str(quote_id),
                     'no-reply@hlssquotebook.herokuapp.com', [to_email], html_message=html)
 
+class QuoteAdmin(admin.ModelAdmin):
+    search_fields = ('quote', 'attribution', 'rating', 'num_ratings')
+
 class SubmittedQuoteAdmin(admin.ModelAdmin):
     actions=[approve_quote]
 
-admin.site.register(Quote)
+admin.site.register(Quote, QuoteAdmin)
 admin.site.register(SubmittedQuote, SubmittedQuoteAdmin)
