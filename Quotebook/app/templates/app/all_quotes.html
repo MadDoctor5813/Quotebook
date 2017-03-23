@@ -18,8 +18,13 @@
                 </div>
             </div>
             <div class="form-group">
+                {% if request.GET.searchType == "text" %}
                 <label class="radio-inline"><input type="radio" name="searchType" value="text" checked="checked"/>Search by quote text</label>
                 <label class="radio-inline"><input type="radio" name="searchType" value="author"/>Search by quote author</label>
+                {% elif request.GET.searchType == "author" %}
+                <label class="radio-inline"><input type="radio" name="searchType" value="text"/>Search by quote text</label>
+                <label class="radio-inline"><input type="radio" name="searchType" value="author" checked="checked"/>Search by quote author</label>
+                {% endif %}
             </div>
         </form>
     </div>
