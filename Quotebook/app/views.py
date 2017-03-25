@@ -5,8 +5,10 @@ Definition of views.
 from django.shortcuts import render
 from django.http import HttpRequest
 from django.template import RequestContext
+from django.core.exceptions import SuspiciousOperation
 from django.core.paginator import Paginator
 from django.core.paginator import PageNotAnInteger
+from django.http import HttpResponse
 from django.utils.datastructures import MultiValueDictKeyError
 from app.models import Quote
 from app.models import SubmittedQuote
@@ -54,3 +56,18 @@ def submit_quote(request):
         submitted.submitter_email = request.POST['submitterEmail']
         submitted.save()
         return render(request, 'app/submit_success.html')
+
+def rate_quote(request):
+    new_rating = float(request.POST['rating'])
+    #check if the rating is out of range
+    if new_rating < 0 or new_rating > 5:
+        raise SuspiciousOperation
+    quote_id = int(request.POST['id'])
+    quote = Quote.objects.get(pk=quote_id)
+    #calculate a new average rating
+    rating_sum = quote.rating * quote.num_ratings
+    rating_sum += new_rating
+    quote.num_ratings += 1
+    quote.rating = rating_sum / quote.num_ratings
+    quote.save()
+    return HttpResponse(status=204)
