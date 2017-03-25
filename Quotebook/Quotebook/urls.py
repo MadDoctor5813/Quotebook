@@ -22,6 +22,7 @@ urlpatterns = [
     url(r'^submit_quote/$', app.views.submit_quote),
 
     url(r'^api/rate_quote/$', app.views.rate_quote),
+    url(r'^api/get_rating_info/$', app.views.get_rating_info),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

@@ -4,6 +4,7 @@ Definition of views.
 
 from django.shortcuts import render
 from django.http import HttpRequest
+from django.http import JsonResponse
 from django.template import RequestContext
 from django.core.exceptions import SuspiciousOperation
 from django.core.paginator import Paginator
@@ -71,3 +72,8 @@ def rate_quote(request):
     quote.rating = rating_sum / quote.num_ratings
     quote.save()
     return HttpResponse(status=204)
+
+def get_rating_info(request):
+    quote_id = request.GET['id']
+    quote = Quote.objects.get(pk=quote_id)
+    return JsonResponse({'rating' : quote.rating, 'num_ratings': quote.num_ratings})
