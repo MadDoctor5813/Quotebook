@@ -11,14 +11,14 @@
 		<footer class="quote-footer">{{ quote.attribution }}</footer>
 	</blockquote>
     <div class="text-center">
-        <input class="rating" data-display-only="true" value="{{quote.rating}}"/>
+        <input class="rating display-rating" data-display-only="true" value="{{quote.rating}}" data-quote-id="{{quote.pk}}"/>
     </div>
     <footer class="footer">
         <div class="col-md-4">
             <a href="/{{ quote.pk }}">Permalink</a>
         </div>
         <div class="col-md-4">
-            <p class="text-center">{{quote.num_ratings}} rating{{quote.num_ratings|pluralize}}</p>
+            <p class="text-center num-ratings-display" data-quote-id="{{quote.pk}}">{{quote.num_ratings}} rating{{quote.num_ratings|pluralize}}</p>
         </div>
         <div class="col-md-4">
             <a id="rate-link-{{quote.pk}}" class="pull-right" href="#" data-toggle="modal" data-target="#rate-modal-{{quote.pk}}">Rate</a>
@@ -32,7 +32,7 @@
             <div class="modal-body">
                 <div class="text-center">
                     <h1>Rate this quote:</h1>
-                    <input class="rating" data-show-caption="false" data-size="xl" data-show-clear="false" id="modal-rating-input-{{quote.pk}}" data-quote-id="{{quote.pk}}"/>
+                    <input class="rating input-rating" data-show-caption="false" data-size="xl" data-show-clear="false" id="modal-rating-input-{{quote.pk}}" data-quote-id="{{quote.pk}}"/>
                     <button class="btn btn-primary btn-lg rate-btn" data-dismiss="modal" id="rate-btn-{{quote.pk}}" data-quote-id="{{quote.pk}}">Rate</button>
                 </div>
             </div>
