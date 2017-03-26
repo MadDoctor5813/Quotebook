@@ -17,14 +17,21 @@
                     </span>
                 </div>
             </div>
-            <div class="form-group">
-                {% if request.GET.searchType == "text" %}
-                <label class="radio-inline"><input type="radio" name="searchType" value="text" checked="checked"/>Search by quote text</label>
-                <label class="radio-inline"><input type="radio" name="searchType" value="author"/>Search by quote author</label>
-                {% elif request.GET.searchType == "author" %}
-                <label class="radio-inline"><input type="radio" name="searchType" value="text"/>Search by quote text</label>
-                <label class="radio-inline"><input type="radio" name="searchType" value="author" checked="checked"/>Search by quote author</label>
-                {% endif %}
+            <div class="text-left">
+                <label for="search-options-group">Search Options:</label>
+                <div class="form-group" id="search-options-group">
+                    <label class="checkbox-inline"><input type="checkbox" name="searchAuthor" value="true" {% if request.GET.searchAuthor %}checked="checked"{% endif %}>Search by author</label>
+                    <label class="checkbox-inline"><input type="checkbox" name="searchText" value="true" {% if request.GET.searchText %}checked="checked"{% endif %}>Search by quote text</label>
+                </div>
+                <div class="form-group">
+                    <label for="sort-select">Sort results by:</label>
+                    <select class="form-control" id="sort-select" name="sort">
+                        <option value="ratingDescend" {% if request.GET.sort == 'ratingDescend' %}selected="selected"{% endif %}>Best Rating</option>
+                        <option value="ratingAscend" {% if request.GET.sort == 'ratingAscend' %}selected="selected"{% endif %}>Worst Rating</option>
+                        <option value="numRatingsDescend" {% if request.GET.sort == 'numRatingsDescend' %}selected="selected"{% endif %}>Most Ratings</option>
+                        <option value="numRatingsAscend" {% if request.GET.sort == 'numRatingsAscend' %}selected="selected"{% endif %}>Least Ratings</option>
+                    </select>
+                </div>
             </div>
         </form>
     </div>

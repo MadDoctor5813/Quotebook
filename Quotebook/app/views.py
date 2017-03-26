@@ -26,15 +26,26 @@ def view_quote(request, page_id=None):
     return render(request, "app/view_quote.html", {'quote': quote})
 
 def view_all_quotes(request):
-    try:
-        search = request.GET['search']
-        searchType = request.GET['searchType']
-        if searchType == 'text':
-            quote_set = Quote.objects.filter(quote__icontains=search)
-        elif searchType == 'author':
-            quote_set = Quote.objects.filter(attribution__icontains=search)
-    except MultiValueDictKeyError:
+    search = request.GET.get('search')
+    if search:
+        quote_set = Quote.objects.none()
+        if request.GET.get('searchAuthor'):
+            quote_set = quote_set | Quote.objects.filter(attribution__icontains=search)
+        if request.GET.get('searchText'):
+            quote_set = quote_set | Quote.objects.filter(quote__icontains=search)
+    else:
         quote_set = Quote.objects.all()
+
+    sort = request.GET.get('sort')
+    if sort == 'ratingAscend':
+        quote_set = quote_set.order_by('rating')
+    elif sort == 'ratingDescend':
+        quote_set = quote_set.order_by('-rating')
+    elif sort == 'numRatingsAscend':
+        quote_set = quote_set.order_by('num_ratings')
+    elif sort == 'numRatingsDescend':
+        quote_set = quote_set.order_by('-num_ratings')
+
     paginator = Paginator(quote_set, 5)
     try:
         page_num = request.GET['page']
