@@ -71,9 +71,4 @@ def rate_quote(request):
     quote.num_ratings += 1
     quote.rating = rating_sum / quote.num_ratings
     quote.save()
-    return HttpResponse(status=204)
-
-def get_rating_info(request):
-    quote_id = request.GET['id']
-    quote = Quote.objects.get(pk=quote_id)
     return JsonResponse({'rating' : quote.rating, 'num_ratings': quote.num_ratings})

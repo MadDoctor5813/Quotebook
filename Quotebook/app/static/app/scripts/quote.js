@@ -1,21 +1,12 @@
-update_quote_rating = function (quote_id) {
+update_quote_rating = function (quote_id, rating, num_ratings) {
     display_rating = $(".display-rating[data-quote-id='" + quote_id + "']")
-    num_ratings = $(".num-ratings-display[data-quote-id='" + quote_id + "']")
-    $.ajax({
-        method: "GET",
-        url: "/api/get_rating_info/",
-        data: {
-            "id": quote_id
-        },
-        success: function (data) {
-            display_rating.rating('update', data.rating)
-            ratings_text = data.num_ratings + " rating"
-            if (data.num_ratings != 1) {
-                ratings_text += "s"
-            }
-            num_ratings.text(ratings_text)
-        }
-    })
+    num_ratings_display = $(".num-ratings-display[data-quote-id='" + quote_id + "']")
+    display_rating.rating('update', rating)
+    ratings_text = num_ratings + " rating"
+    if (num_ratings != 1) {
+        ratings_text += "s"
+    }
+    num_ratings_display.text(ratings_text)
 }
 
 $(document).ready(function () {
@@ -34,8 +25,8 @@ $(document).ready(function () {
                 "id": quote_id,
                 "csrfmiddlewaretoken" : CSRF_TOKEN
             },
-            success: function () {
-                update_quote_rating(quote_id)
+            success: function (data) {
+                update_quote_rating(quote_id, data.rating, data.num_ratings)
             }
         })
         //close the modal ourselves, because we stopped event propagation earlier
