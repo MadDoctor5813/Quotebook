@@ -38,13 +38,13 @@ def view_all_quotes(request):
 
     sort = request.GET.get('sort')
     if sort == 'ratingAscend':
-        quote_set = quote_set.order_by('rating')
+        quote_set = quote_set.order_by('rating', '-pk')
     elif sort == 'ratingDescend':
-        quote_set = quote_set.order_by('-rating')
+        quote_set = quote_set.order_by('-rating', '-pk')
     elif sort == 'numRatingsAscend':
-        quote_set = quote_set.order_by('num_ratings')
+        quote_set = quote_set.order_by('num_ratings', '-pk')
     elif sort == 'numRatingsDescend':
-        quote_set = quote_set.order_by('-num_ratings')
+        quote_set = quote_set.order_by('-num_ratings', '-pk')
 
     paginator = Paginator(quote_set, 5)
     try:
