@@ -2,6 +2,16 @@
 
 {% load static %}
 
+{% block custom-css %}
+<link rel="stylesheet" href="{% static 'app/content/star-rating.css' %}" />
+{% endblock %}
+
+{% block custom-js %}
+<script src="{% static 'app/scripts/star-rating.js' %}" type="text/javascript"></script>
+<script src="{% static 'app/scripts/quote.js' %}" type="text/javascript"></script>
+<script type="text/javascript"> window.CSRF_TOKEN = "{{ csrf_token }}"; </script>
+{% endblock %}
+
 {% block content %}
 <div class="container">
         {% include 'app/quote.html' with quote=quote %}

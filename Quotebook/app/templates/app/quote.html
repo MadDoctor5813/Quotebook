@@ -1,11 +1,4 @@
-﻿<!--Including js and css in the body for now-->
-{% load static %}
-<link rel="stylesheet" href="{% static 'app/content/star-rating.css' %}" />
-<script src="{% static 'app/scripts/star-rating.js' %}" type="text/javascript"></script>
-<script src="{% static 'app/scripts/quote.js' %}" type="text/javascript"></script>
-<script type="text/javascript"> window.CSRF_TOKEN = "{{ csrf_token }}"; </script>
-
-<div class="quote-well well container" data-quote-id="{{quote.pk}}">
+﻿<div class="quote-well well container" data-quote-id="{{quote.pk}}">
     <blockquote class="blockquote text-center">
         <h1 class="quote">"{{ quote.quote }}"</h1>
 		<footer class="quote-footer">{{ quote.attribution }}</footer>
