@@ -34,7 +34,7 @@ def view_all_quotes(request):
         if request.GET.get('searchText'):
             quote_set = quote_set | Quote.objects.filter(quote__icontains=search)
     else:
-        quote_set = Quote.objects.all()
+        quote_set = Quote.objects.all().order_by("-pk")
 
     sort = request.GET.get('sort')
     if sort == 'ratingAscend':
