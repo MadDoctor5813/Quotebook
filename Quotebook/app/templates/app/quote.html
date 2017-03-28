@@ -5,13 +5,13 @@
 <script src="{% static 'app/scripts/quote.js' %}" type="text/javascript"></script>
 <script type="text/javascript"> window.CSRF_TOKEN = "{{ csrf_token }}"; </script>
 
-<div class="well container">
+<div class="quote-well well container" data-quote-id="{{quote.pk}}">
     <blockquote class="blockquote text-center">
         <h1 class="quote">"{{ quote.quote }}"</h1>
 		<footer class="quote-footer">{{ quote.attribution }}</footer>
 	</blockquote>
     <div class="text-center">
-        <input class="rating display-rating" data-display-only="true" value="{{quote.rating}}" data-quote-id="{{quote.pk}}"/>
+        <input class="rating display-rating" data-display-only="true" value="{{quote.rating}}"/>
     </div>
     <footer class="footer">
         <div class="col-xs-4">
@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="col-xs-4">
-            <p class="text-center num-ratings-display" data-quote-id="{{quote.pk}}">{{quote.num_ratings}} rating{{quote.num_ratings|pluralize}}</p>
+            <p class="text-center num-ratings-display">{{quote.num_ratings}} rating{{quote.num_ratings|pluralize}}</p>
         </div>
         <div class="col-xs-4">
             <div class="text-right">
@@ -30,14 +30,14 @@
     </footer>
 </div>
 
-<div class="modal fade" role="dialog" id="rate-modal-{{quote.pk}}">
+<div class="modal fade" role="dialog" id="rate-modal-{{quote.pk}}" data-quote-id="{{quote.pk}}">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="text-center">
                     <h1>Rate this quote:</h1>
-                    <input class="rating input-rating" data-show-caption="false" data-size="xl" data-show-clear="false" id="modal-rating-input-{{quote.pk}}" data-quote-id="{{quote.pk}}"/>
-                    <button class="btn btn-primary btn-lg rate-btn" data-dismiss="modal" id="rate-btn-{{quote.pk}}" data-quote-id="{{quote.pk}}">Rate</button>
+                    <input class="rating input-rating" data-show-caption="false" data-size="xl" data-show-clear="false" id="modal-rating-input-{{quote.pk}}"/>
+                    <button class="btn btn-primary btn-lg rate-btn" data-dismiss="modal" id="rate-btn-{{quote.pk}}">Rate</button>
                 </div>
             </div>
         </div>

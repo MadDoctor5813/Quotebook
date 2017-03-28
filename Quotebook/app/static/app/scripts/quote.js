@@ -1,6 +1,7 @@
 update_quote_rating = function (quote_id, rating, num_ratings) {
-    display_rating = $(".display-rating[data-quote-id='" + quote_id + "']")
-    num_ratings_display = $(".num-ratings-display[data-quote-id='" + quote_id + "']")
+    quote_well = $(".quote-well[data-quote-id='" + quote_id + "']")
+    display_rating = $(quote_well).find(".display-rating")
+    num_ratings_display = $(quote_well).find(".num-ratings-display")
     display_rating.rating('update', rating)
     ratings_text = num_ratings + " rating"
     if (num_ratings != 1) {
@@ -13,9 +14,9 @@ $(document).ready(function () {
     $(".rate-btn").click(function (event) {
         //this stops the event triggering for every button
         event.stopImmediatePropagation()
-        quote_id = $(this).data("quote-id")
-        //find the rating input with the id that matches this button
-        rating_input = $(".input-rating[data-quote-id='" + quote_id + "']")
+        var rate_modal = $(this).parents(".modal")
+        quote_id = rate_modal.data("quote-id")
+        rating_input = rate_modal.find(".input-rating")
         rating = rating_input.val()
         $.ajax({
             method: "POST",
@@ -30,6 +31,6 @@ $(document).ready(function () {
             }
         })
         //close the modal ourselves, because we stopped event propagation earlier
-        $(this).parents(".modal").modal("hide")
+        rate_modal.modal("hide")
     })
 })
