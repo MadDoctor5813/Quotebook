@@ -20,7 +20,7 @@ class SubmittedQuote(models.Model):
 
     quote = models.CharField(max_length=128)
     attribution = models.CharField(max_length=64)
-    submitter_email = models.EmailField()
+    submitter_email = models.EmailField(blank=True)
     date_submitted = models.DateField(auto_now_add=True)
 
     def __str__(self):
