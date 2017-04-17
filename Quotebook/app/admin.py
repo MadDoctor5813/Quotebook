@@ -15,9 +15,9 @@ def approve_quote(modeladmin, request, queryset):
         submitted_quote.delete()
 
 def send_approve_email(to_email, quote_id):
-   html = render_to_string('app/approve_email.html', {'quote_url' : 'hlssquotebook.herokuapp.com/' + str(quote_id)})
-   email = send_mail('Your quote has been approved', 'Your quote has been approved. See it at hlssquotebook.herokuapp.com/' + str(quote_id),
-                    'no-reply@hlssquotebook.herokuapp.com', [to_email], html_message=html)
+   html = render_to_string('app/approve_email.html', {'quote_url' : 'www.quotebook.me/' + str(quote_id)})
+   email = send_mail('Your quote has been approved', 'Your quote has been approved. See it at www.quotebook.me/' + str(quote_id),
+                    'no-reply@quotebook.me', [to_email], html_message=html)
 
 class QuoteAdmin(admin.ModelAdmin):
     search_fields = ('quote', 'attribution', 'rating', 'num_ratings')
