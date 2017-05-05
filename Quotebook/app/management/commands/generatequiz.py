@@ -13,6 +13,8 @@ class Command(BaseCommand):
         return r.json()['access_token']
 
     def generate_quiz(self, num_questions, title):
+        if num_questions == 0:
+            num_questions = Quote.objects.count()
         #generate quiz metadata
         quiz_dict = {
                 'title' : title,
@@ -64,7 +66,7 @@ class Command(BaseCommand):
         except KeyError:
             self.stdout.write('Login error.')
             return
-        num_questions = int(input('Enter the number of questions you want: '))
+        num_questions = int(input('Enter the number of questions you want (enter 0 to use all the quotes): '))
         title = input('Enter the title of your quiz: ')
         quiz_dict = self.generate_quiz(num_questions, title)
         #upload the quiz
