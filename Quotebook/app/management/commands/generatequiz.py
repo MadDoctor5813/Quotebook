@@ -8,7 +8,7 @@ import os
 
 class Command(BaseCommand):
 
-    proxyDict = {
+    proxy_dict = {
               "http"  : os.environ.get('FIXIE_URL', ''),
               "https" : os.environ.get('FIXIE_URL', '')
             }
@@ -16,7 +16,7 @@ class Command(BaseCommand):
     def login(self, username, password):
         login_params = { 'username' : username, 'password' : password, 'grant_type' : 'password'}
         r = requests.post('https://create.kahoot.it/rest/authenticate', json.dumps(login_params), 
-                          headers={'content-type' : 'application/json'}, proxies=proxyDict)
+                          headers={'content-type' : 'application/json'}, proxies=self.proxy_dict)
         return r.json()['access_token']
 
     def generate_quiz(self, num_questions, title):
@@ -78,7 +78,7 @@ class Command(BaseCommand):
         quiz_dict = self.generate_quiz(num_questions, title)
         #upload the quiz
         r = requests.post("https://create.kahoot.it/rest/kahoots", json.dumps(quiz_dict), 
-                          headers={'content-type' : 'application/json', 'authorization' : access_token}, proxies=proxyDict)
+                          headers={'content-type' : 'application/json', 'authorization' : access_token}, proxies=self.proxy_dict)
         r.raise_for_status()
 
 
