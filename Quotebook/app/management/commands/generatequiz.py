@@ -4,7 +4,6 @@ import requests
 import json
 import random
 import pprint
-import logging
 
 class Command(BaseCommand):
 
@@ -59,19 +58,6 @@ class Command(BaseCommand):
         return sample
 
     def handle(self, *args, **options):
-        try: # for Python 3
-            from http.client import HTTPConnection
-        except ImportError:
-            from httplib import HTTPConnection
-        HTTPConnection.debuglevel = 1
-
-        logging.basicConfig() # you need to initialize logging, otherwise you will not see anything from
-                              # requests
-        logging.getLogger().setLevel(logging.DEBUG)
-        requests_log = logging.getLogger("requests.packages.urllib3")
-        requests_log.setLevel(logging.DEBUG)
-        requests_log.propagate = True
-
         #login
         username = input('Enter Kahoot username: ')
         password = input('Enter Kahoot password: ')
