@@ -4,12 +4,19 @@ import requests
 import json
 import random
 import pprint
+import os
 
 class Command(BaseCommand):
 
+    proxyDict = {
+              "http"  : os.environ.get('FIXIE_URL', ''),
+              "https" : os.environ.get('FIXIE_URL', '')
+            }
+
     def login(self, username, password):
         login_params = { 'username' : username, 'password' : password, 'grant_type' : 'password'}
-        r = requests.post('https://create.kahoot.it/rest/authenticate', json.dumps(login_params), headers={'content-type' : 'application/json'})
+        r = requests.post('https://create.kahoot.it/rest/authenticate', json.dumps(login_params), 
+                          headers={'content-type' : 'application/json'}, proxies=proxyDict)
         return r.json()['access_token']
 
     def generate_quiz(self, num_questions, title):
@@ -71,7 +78,7 @@ class Command(BaseCommand):
         quiz_dict = self.generate_quiz(num_questions, title)
         #upload the quiz
         r = requests.post("https://create.kahoot.it/rest/kahoots", json.dumps(quiz_dict), 
-                          headers={'content-type' : 'application/json', 'authorization' : access_token})
+                          headers={'content-type' : 'application/json', 'authorization' : access_token}, proxies=proxyDict)
         r.raise_for_status()
 
 
