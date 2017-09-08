@@ -23,6 +23,8 @@ urlpatterns = [
 
     url(r'^api/rate_quote/$', app.views.rate_quote),
 
+    url(r'^stuff/$', app.views.stuff_page),
+
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
