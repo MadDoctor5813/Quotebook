@@ -19,6 +19,9 @@ import random
 def stuff_page(request):
     return render(request, 'app/stuff_page.html')
 
+def cactus_sig_figs(request):
+    return render(request, 'app/cactus_sig_figs.html')
+
 def view_quote(request, page_id=None):
     if page_id == None:
         #no specific quote requested, display a random one
