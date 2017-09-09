@@ -25,7 +25,7 @@ urlpatterns = [
 
     url(r'^stuff/$', app.views.stuff_page),
 
-    url(r'^stuff/cactus-sig-figs/$', app.views.cactus_sig_figs),
+    url(r'^stuff/(?P<misc_page>[\w\-]+)', app.views.render_misc_page),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

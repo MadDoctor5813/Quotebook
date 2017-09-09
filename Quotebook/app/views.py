@@ -19,8 +19,10 @@ import random
 def stuff_page(request):
     return render(request, 'app/stuff_page.html')
 
-def cactus_sig_figs(request):
-    return render(request, 'app/cactus_sig_figs.html')
+def render_misc_page(request, **kwargs):
+    #replace dashes with underscores to match html naming conventions
+    template_name = 'app/misc/' + kwargs['misc_page'].replace('-', '_') + '.html'
+    return render(request, template_name)
 
 def view_quote(request, page_id=None):
     if page_id == None:

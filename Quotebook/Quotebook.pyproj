@@ -70,9 +70,10 @@
     <Folder Include="app\static\app\fonts\" />
     <Folder Include="app\static\app\img\" />
     <Folder Include="app\static\app\scripts\" />
-    <Folder Include="app\static\app\scripts\cactus-sig-figs\" />
+    <Folder Include="app\static\app\scripts\misc\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
+    <Folder Include="app\templates\app\misc\" />
     <Folder Include="Quotebook\" />
     <Folder Include="Quotebook\static\" />
   </ItemGroup>
@@ -89,7 +90,7 @@
     <Content Include="app\static\app\content\star-rating.min.css" />
     <Content Include="app\static\app\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="app\static\app\img\loading.gif" />
-    <Content Include="app\static\app\scripts\cactus-sig-figs\script.js" />
+    <Content Include="app\static\app\scripts\misc\cactus-sig-figs.js" />
     <Content Include="app\static\app\scripts\quote.js" />
     <Content Include="app\static\app\scripts\star-rating.js" />
     <Content Include="app\static\app\scripts\star-rating.min.js" />
@@ -97,7 +98,7 @@
     <Content Include="app\templates\app\all_quotes.html" />
     <Content Include="app\templates\app\approve_email.html" />
     <Content Include="app\templates\app\base.html" />
-    <Content Include="app\templates\app\cactus_sig_figs.html" />
+    <Content Include="app\templates\app\misc\cactus_sig_figs.html" />
     <Content Include="app\templates\app\quote.html" />
     <Content Include="app\templates\app\stuff_page.html" />
     <Content Include="app\templates\app\view_quote.html" />
