@@ -263,3 +263,6 @@ __pycache__/
 #Django static files
 staticfiles/
 Quotebook/db.sqlite3
+
+#the virtual environment
+env/
