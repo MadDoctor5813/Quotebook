@@ -25,17 +25,17 @@ var nouns = [
     "canned soup",
     "boat",
     "submarine",
-    "sandwich"
-    "species of bear"
+    "sandwich",
+    "species of bear",
     "famous writer",
     "economic system",
-    "financial derivative"
+    "financial derivative",
     "artillery shell",
     "seafood special",
     "celebrity chef",
     "serial killer",
     "big red button",
-    "beekeeper"
+    "beekeeper",
     "Shakespearean actor"
 ]
 
@@ -89,7 +89,7 @@ var actions = [
     "is cruel and unusual punishment",
     "leads a communist uprising",
     "bans high-capacity magazines",
-    "can dunk from the free throw line",
+    "can dunk from the free throw line"
 ]
 
 function choose(choices) {
