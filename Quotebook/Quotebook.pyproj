@@ -92,6 +92,7 @@
     <Content Include="app\static\app\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="app\static\app\img\loading.gif" />
     <Content Include="app\static\app\scripts\misc\cactus-sig-figs.js" />
+    <Content Include="app\static\app\scripts\misc\idea-gen.js">
     <Content Include="app\static\app\scripts\quote.js" />
     <Content Include="app\static\app\scripts\star-rating.js" />
     <Content Include="app\static\app\scripts\star-rating.min.js" />
@@ -100,6 +101,7 @@
     <Content Include="app\templates\app\approve_email.html" />
     <Content Include="app\templates\app\base.html" />
     <Content Include="app\templates\app\misc\cactus_sig_figs.html" />
+    <Content Include="app\templates\app\misc\idea_gen.html">
     <Content Include="app\templates\app\quote.html" />
     <Content Include="app\templates\app\stuff_page.html" />
     <Content Include="app\templates\app\view_quote.html" />
