@@ -19,7 +19,24 @@ var nouns = [
     "coffee maker",
     "toaster",
     "floor joist",
-    "left pinky toe"
+    "left pinky toe",
+    "crown",
+    "genetic disease",
+    "canned soup",
+    "boat",
+    "submarine",
+    "sandwich"
+    "species of bear"
+    "famous writer",
+    "economic system",
+    "financial derivative"
+    "artillery shell",
+    "seafood special",
+    "celebrity chef",
+    "serial killer",
+    "big red button",
+    "beekeeper"
+    "Shakespearean actor"
 ]
 
 var actions = [
@@ -42,7 +59,37 @@ var actions = [
     "makes America great again",
     "cooks dinner",
     "ruins dinner",
-    "never forgets"
+    "never forgets",
+    "plants trees",
+    "cures Ebola",
+    "gives you Ebola",
+    "wins rock paper scissors",
+    "benches 250 pounds",
+    "sells crack",
+    "may cause nausea",
+    "wins the game of thrones",
+    "kills people with fire",
+    "performs colonoscopies",
+    "makes bank errors in your favor",
+    "sinks your battleship",
+    "is not valid in Quebec",
+    "cleans toxic waste",
+    "creates toxic waste",
+    "wears a hat",
+    "sends you to New Zealand",
+    "sees dead people",
+    "knows why kids love Cinnamon Toast Crunch",
+    "doesn't know why kids love Cinnamon Toast Crunch",
+    "wears socks with sandals",
+    "writes stories about talking dogs",
+    "tastes like chalk and black pepper",
+    "is made of people",
+    "may have contributed to the rise of fascism",
+    "commits war crimes",
+    "is cruel and unusual punishment",
+    "leads a communist uprising",
+    "bans high-capacity magazines",
+    "can dunk from the free throw line",
 ]
 
 function choose(choices) {
