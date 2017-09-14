@@ -36,7 +36,26 @@ var nouns = [
     "serial killer",
     "big red button",
     "beekeeper",
-    "Shakespearean actor"
+    "Shakespearean actor",
+    "purse",
+    "enchanted lake",
+    "mathematical proof",
+    "USB stick",
+    "fancy picture",
+    "rec center",
+    "virus",
+    "assault rifle",
+    "surgery",
+    "inspiring speech",
+    "racist ideologue",
+    "political party",
+    "shoe store",
+    "book club",
+    "superhero",
+    "supervillain",
+    "laser",
+    "algorithm",
+    "secret word"
 ]
 
 var actions = [
@@ -89,7 +108,19 @@ var actions = [
     "is cruel and unusual punishment",
     "leads a communist uprising",
     "bans high-capacity magazines",
-    "can dunk from the free throw line"
+    "can dunk from the free throw line",
+    "that puts money in thy purse",
+    "destabilizes the economy of Poland",
+    "performs a lung transplant in 30 seconds or less",
+    "bets against the mortgage industry",
+    "drinks pumpkin spice lattes",
+    "performs Othello",
+    "steals your kidneys",
+    "ferments milk into yogourt",
+    "turns carrots into baby carrots",
+    "speaks 30 languages",
+    "sends satellites into orbit",
+    "can reach the top shelf"
 ]
 
 function choose(choices) {
