@@ -31,6 +31,11 @@ def view_quote(request, page_id=None):
     else:
         #display a quote with the requested id
         quote = Quote.objects.get(pk=page_id)
+    #if the quote already has quotation marks remove them
+    if quote.quote[0] == '"':
+        quote.quote = quote.quote[1:]
+    if quote.quote[-1] == '"':
+        quote.quote = quote.quote[:-1]
     return render(request, "app/view_quote.html", {'quote': quote})
 
 def view_all_quotes(request):
