@@ -1,4 +1,11 @@
 ﻿<div class="quote-well well container" data-quote-id="{{quote.pk}}">
+    <header class="text-right">
+        <div class="col-xs-4"></div>
+        <div class="col-xs-4"></div>
+        <div class="col-xs-4">
+            <a class="listen-link" id="listen-link-{{quote.pk}}" href="#">Listen</a>
+        </div>
+    </header>
     <blockquote class="blockquote text-center">
         <h1 class="quote">"{{ quote.quote }}"</h1>
 		<footer class="quote-footer">{{ quote.attribution }}</footer>

@@ -33,4 +33,12 @@ $(document).ready(function () {
         //close the modal ourselves, because we stopped event propagation earlier
         rate_modal.modal("hide")
     })
+    $(".listen-link").click(function (event) {
+        //this stops the page popping back up to the top when this is clicked
+        event.preventDefault()
+        var quote_text = $(this).parents(".quote-well").children(".blockquote").children("h1").text()
+        //remove initial quotes
+        quote_text = quote_text.slice(1, -1)
+        responsiveVoice.speak(quote_text, "UK English Male")
+    })
 })
