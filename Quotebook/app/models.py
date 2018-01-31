@@ -13,6 +13,9 @@ class Quote(models.Model):
     rating = models.FloatField(default=0)
     num_ratings = models.IntegerField(default=0);
 
+    pinned = models.BooleanField(default=False)
+    censored_content = models.BooleanField(default=False)
+
     def __str__(self):
         return 'Quote ' + str(self.pk) + ' by ' + self.attribution
 
