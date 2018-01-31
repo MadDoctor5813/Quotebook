@@ -29,6 +29,9 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET')
 #Load debug state from environment variables
 DEBUG = os.environ.get('DEBUG', False);
 
+#Load censor var from environment variables
+CENSOR = os.environ.get('CENSOR', False);
+
 ALLOWED_HOSTS = ['*']
 
 

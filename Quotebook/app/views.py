@@ -14,6 +14,7 @@ from django.utils.datastructures import MultiValueDictKeyError
 from app.models import Quote
 from app.models import SubmittedQuote
 from datetime import datetime
+from django.conf import settings
 import random
 
 def stuff_page(request):
@@ -27,7 +28,10 @@ def render_misc_page(request, **kwargs):
 def view_quote(request, page_id=None):
     if page_id == None:
         #no specific quote requested, display a random one
-        quote = random.choice(Quote.objects.all())
+        quotes = Quote.objects.all()
+        if settings.CENSOR == True:
+            quotes = quotes.filter(censored_content=False)
+        quote = random.choice(quotes)
     else:
         #display a quote with the requested id
         quote = Quote.objects.get(pk=page_id)
@@ -58,6 +62,9 @@ def view_all_quotes(request):
         quote_set = quote_set.order_by('num_ratings', '-pk')
     elif sort == 'numRatingsDescend':
         quote_set = quote_set.order_by('-num_ratings', '-pk')
+    
+    if settings.CENSOR == True:
+        quote_set = quote_set.filter(censored_content=False)
 
     paginator = Paginator(quote_set, 5)
     try:
