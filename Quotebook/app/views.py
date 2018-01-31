@@ -51,18 +51,29 @@ def view_all_quotes(request):
         if request.GET.get('searchText'):
             quote_set = quote_set | Quote.objects.filter(quote__icontains=search)
     else:
-        quote_set = Quote.objects.all().order_by("-pk")
+        quote_set = Quote.objects.all()
+
+    sort_list = []
+
+
+    #sort pinned quotes to the top
+    sort_list.append('-pinned')
 
     sort = request.GET.get('sort')
     if sort == 'ratingAscend':
-        quote_set = quote_set.order_by('rating', '-pk')
+        sort_list.append('rating')
     elif sort == 'ratingDescend':
-        quote_set = quote_set.order_by('-rating', '-pk')
+        sort_list.append('-rating')
     elif sort == 'numRatingsAscend':
-        quote_set = quote_set.order_by('num_ratings', '-pk')
+        sort_list.append('num_ratings')
     elif sort == 'numRatingsDescend':
-        quote_set = quote_set.order_by('-num_ratings', '-pk')
+        sort_list.append('-num_ratings')
     
+    #sort by reverse primary key to make sure we get a consistent ordering
+    sort_list.append('-pk')
+
+    quote_set = quote_set.order_by(*sort_list)
+
     if settings.CENSOR == True:
         quote_set = quote_set.filter(censored_content=False)
 
